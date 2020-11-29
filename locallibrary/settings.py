@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 # export DJANGO_DEBUG=False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['floating-scrubland-74613.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
